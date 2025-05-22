@@ -572,4 +572,50 @@ root {
     color: var(--muted-foreground);
     font-size: 0.875rem;
   }
-
+@media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+    
+    h2 {
+      font-size: 1.75rem;
+    }
+    
+    .navbar {
+      flex-wrap: wrap;
+    }
+    
+    .nav-toggle {
+      display: flex;
+      order: 2;
+    }
+    
+    .nav-links {
+      flex-basis: 100%;
+      flex-direction: column;
+      align-items: center;
+      display: none;
+      margin-top: 1rem;
+      order: 3;
+    }
+    
+    .nav-links.active {
+      display: flex;
+    }
+    
+    .nav-links li {
+      margin: 0.5rem 0;
+      width: 100%;
+      text-align: center;
+    }
+    
+    .calm-mode-toggle {
+      order: 2;
+    }
+    
+    .services-grid {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+  }
+  
+  
