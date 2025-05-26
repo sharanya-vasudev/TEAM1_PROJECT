@@ -1,50 +1,93 @@
 
-# TypeScript
+ 
+# 🌿 Campus Calm – Student Mental Well-being Platform
 
-[![CI](https://github.com/microsoft/TypeScript/actions/workflows/ci.yml/badge.svg)](https://github.com/microsoft/TypeScript/actions/workflows/ci.yml)
-[![npm version](https://badge.fury.io/js/typescript.svg)](https://www.npmjs.com/package/typescript)
-[![Downloads](https://img.shields.io/npm/dm/typescript.svg)](https://www.npmjs.com/package/typescript)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/microsoft/TypeScript/badge)](https://securityscorecards.dev/viewer/?uri=github.com/microsoft/TypeScript)
+Welcome to **Campus Calm**, a responsive, student-friendly web platform designed to support mental health and emotional well-being. This project offers students easy access to various wellness services like therapy, meditation, academic stress counseling, and more.
 
+---
 
-[TypeScript](https://www.typescriptlang.org/) is a language for application-scale JavaScript. TypeScript adds optional types to JavaScript that support tools for large-scale JavaScript applications for any browser, for any host, on any OS. TypeScript compiles to readable, standards-based JavaScript. Try it out at the [playground](https://www.typescriptlang.org/play/), and stay up to date via [our blog](https://blogs.msdn.microsoft.com/typescript) and [Twitter account](https://twitter.com/typescript).
+## 🧠 Features
 
-Find others who are using TypeScript at [our community page](https://www.typescriptlang.org/community/).
+✨ **Home Page**  
+- Engaging hero section with a calming theme  
+- Quick navigation to services, booking, and contact pages  
 
-## Installing
+🧘 **Services Page**  
+- Detailed list of mental health services offered  
+- Includes therapy, guided meditation, academic stress help, and workshops
 
-For the latest stable version:
+📅 **Booking Page**  
+- Interactive calendar for session booking  
+- Secure form to collect session preferences
 
-```bash
-npm install -D typescript
+📨 **Contact Page**  
+- Contact form and essential details  
+- FAQ section to clarify common concerns
+
+🌙 **Calm Mode Toggle**  
+- Switch to a calmer visual theme to reduce screen stress  
+- Preference saved locally for user comfort
+
+📱 **Fully Responsive**  
+- Optimized for mobile, tablet, and desktop screens  
+- Smooth and accessible UX across devices
+
+---
+
+## 🛠 Tech Stack
+
+- **HTML5**  
+- **CSS3** with custom properties and `calm-mode`  
+- **JavaScript** for interactive features  
+- **Google Fonts** for beautiful typography  
+- **Hostinger** for hosting  
+- **WordPress** integration experience (from other projects)
+
+---
+
+## 🚀 How to Run Locally
+
+1. **Clone this repository:**
+   ```bash
+   git clone https://github.com/your-username/campus-calm.git
+   cd campus-calm
+   ```
+
+2. **Open `index.html` in your browser**  
+   Or use a live server extension in VS Code.
+
+---
+
+## 📂 Project Structure
+
+```
+📁 campus-calm/
+├── index.html          # Main homepage (not uploaded here, assumed)
+├── about.html          # About the platform
+├── services.html       # List of services offered
+├── booking.html        # Booking form with calendar
+├── contact.html        # Contact info + FAQ section
+├── style.css           # Custom styles and calm-mode variables
+├── package-lock.json   # Node packages (if used in further development)
 ```
 
-For our nightly builds:
+---
 
-```bash
-npm install -D typescript@next
-```
+## 👨‍💻 Developed By
 
-## Contribute
+- **Sharanya V**  
+  Web Developer 
+  📧 sharanyavdev1437@gmail.com  
+  🔗 [LinkedIn](https://www.linkedin.com/in/sharanya-vasudev-31775a353/)
 
-There are many ways to [contribute](https://github.com/microsoft/TypeScript/blob/main/CONTRIBUTING.md) to TypeScript.
-* [Submit bugs](https://github.com/microsoft/TypeScript/issues) and help us verify fixes as they are checked in.
-* Review the [source code changes](https://github.com/microsoft/TypeScript/pulls).
-* Engage with other TypeScript users and developers on [StackOverflow](https://stackoverflow.com/questions/tagged/typescript).
-* Help each other in the [TypeScript Community Discord](https://discord.gg/typescript).
-* Join the [#typescript](https://twitter.com/search?q=%23TypeScript) discussion on Twitter.
-* [Contribute bug fixes](https://github.com/microsoft/TypeScript/blob/main/CONTRIBUTING.md).
+---
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see
-the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com)
-with any additional questions or comments.
+## 📌 Note
 
-## Documentation
+This is a static frontend demo of a student mental wellness platform. Backend integration (database, authentication, reminders, etc.) can be added in future updates.
 
-*  [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
-*  [Programming handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
-*  [Homepage](https://www.typescriptlang.org/)
+---
 
-## Roadmap
+## 📃 License
 
-For details on our planned features and future direction, please refer to our [roadmap](https://github.com/microsoft/TypeScript/wiki/Roadmap).
+This project is for educational and non-commercial use only. All rights reserved © 2025 Campus Calm.
